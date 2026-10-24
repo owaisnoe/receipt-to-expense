@@ -5,7 +5,7 @@ Hacktoberfest Hack Day, Theme 3B (receipt extraction with a fine-tuned Gemma 4).
 **Team Come_Join_Qarc** (SSIT Tumkur): Mohammed Owais (lead), Mohammed Muzakkir, Mohammad Tariq Afzal, Mohammed Ayaan, Mohammed Younus.
 
 - **Model and model card:** https://huggingface.co/owaisnoe/gemma4-e2b-sroie-lora. Holds the LoRA adapters, full evaluation and eval CSVs.
-- **Slides:** [`slides/`](slides). `Theme3B_Receipt_to_Expense_v2.pptx` / `.pdf` is the final deck.
+- **Slides:** [`slides/`](slides). `Theme3B_Receipt_to_Expense_v3.pptx` / `.pdf` is the final deck, with a slide on how we trained the model.
 
 ## Results (100 held-out SROIE test receipts)
 
