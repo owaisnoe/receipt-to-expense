@@ -1,0 +1,19 @@
+{
+ "method": "retrieval-augmented post-correction: vendor memory from TRAIN labels, char-trigram prefilter + difflib",
+ "tau_a_priori": 0.85,
+ "train_vendors": 276,
+ "train_receipts_indexed": 625,
+ "test_receipts_with_seen_vendor_pct": 63.0,
+ "plain_all4_norm": 28.0,
+ "plain_all4_strict": 6.0,
+ "prompted_all4_norm": 37.0,
+ "prompted_all4_strict": 17.0,
+ "finetuned_all4_norm": 66.0,
+ "finetuned_all4_strict": 63.0,
+ "plain+RAG_all4_norm": 39.0,
+ "plain+RAG_all4_strict": 24.0,
+ "prompted+RAG_all4_norm": 47.0,
+ "prompted+RAG_all4_strict": 31.0,
+ "finetuned+RAG_all4_norm": 69.0,
+ "finetuned+RAG_all4_strict": 64.0
+}

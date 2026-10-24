@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Receipt to Expense">
+  <defs>
+    <linearGradient id="r2eLogoG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14c48b"/>
+      <stop offset="1" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="16" ry="16" fill="url(#r2eLogoG)"/>
+  <path d="M16 11h24v32l-4-3-4 3-4-3-4 3-4-3-4 3z" fill="#ffffff"/>
+  <rect x="20" y="16.5" width="16" height="3" rx="1.5" fill="#0f9f6e" opacity=".35"/>
+  <rect x="20" y="22.5" width="10" height="3" rx="1.5" fill="#0f9f6e" opacity=".35"/>
+  <rect x="20" y="29" width="16" height="3.4" rx="1.7" fill="#0f172a"/>
+  <circle cx="42" cy="42" r="10.5" fill="#047857"/>
+  <circle cx="42" cy="42" r="8" fill="#ffffff"/>
+  <path d="M38.2 42.3l2.7 2.7 5.2-5.6" fill="none" stroke="#0f9f6e" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

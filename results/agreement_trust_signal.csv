@@ -1,0 +1,5 @@
+field,agree (%),fine-tuned right when they agree (%),fine-tuned right when they differ (%),fine-tuned errors flagged by 'differ' (%)
+company,76.0,97.4,75.0,75.0
+date,99.0,100.0,0.0,100.0
+address,59.0,83.1,56.1,64.3
+total,72.0,95.8,92.9,40.0

@@ -1,0 +1,14 @@
+run,config,all4_norm,all4_strict,s/receipt,train_min,peak_gb,gpu_shared,vs main FT (all4_norm)
+"main: E2B r32, budget 560, 5+157 steps",plain,28.0,6.0,2.4,,13.0,False,
+"main: E2B r32, budget 560, 5+157 steps",prompted,37.0,17.0,2.0,,13.0,False,
+"main: E2B r32, budget 560, 5+157 steps",finetuned,66.0,63.0,3.0,2.5,13.0,False,
+e2b_r32_s157_b1120,plain,22.0,7.0,4.36,,13.07,True,
+e2b_r32_s157_b1120,finetuned,76.0,70.0,5.26,11.0,13.07,True,"+11/-1, p=0.0063"
+e2b_r32_s157_b280,plain,33.0,10.0,2.69,,11.41,True,
+e2b_r32_s157_b280,finetuned,61.0,56.0,2.93,2.74,11.41,True,"+8/-13, p=0.38"
+e2b_r32_s314_b560,finetuned,71.0,67.0,5.29,10.38,11.96,True,"+7/-2, p=0.18"
+e2b_r8_s157_b560,finetuned,68.0,64.0,4.8,4.23,11.52,True,"+4/-2, p=0.69"
+e4b_r32_s157_b560,plain,42.0,16.0,6.76,,17.94,True,
+e4b_r32_s157_b560,prompted,44.0,32.0,8.05,,17.94,True,
+e4b_r32_s157_b560,finetuned,69.0,64.0,4.85,6.35,17.94,True,"+9/-6, p=0.61"
+speed_e4b_ft,"finetuned (speed test, idle GPU)",,,3.46,,17.42,False,

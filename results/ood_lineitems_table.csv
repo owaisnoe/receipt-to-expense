@@ -1,0 +1,11 @@
+,Plain,Fine-tuned
+valid JSON (%),100.0,100.0
+item precision (%),62.8,75.4
+item recall (%),81.7,82.5
+item F1 (%),71.0,78.8
+receipts with every item right (%),54.0,64.0
+"quantity right, matched items (%)",100.0,100.0
+total right (%),81.2,93.8
+"sum(items) = total, model output (%)",30.0,42.0
+"sum(items) = total, gold labels (%)",60.4,60.4
+s/receipt,9.2,9.2
